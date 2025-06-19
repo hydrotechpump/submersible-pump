@@ -1,117 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HydroTech Pumps & Solutions</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+  <title>Premium Submersible Pumps & Parts</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
 
-  <!-- Header -->
+    body {
+      background-color: #f5f9ff;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(90deg, #0052cc, #007bff);
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      font-size: 2.5em;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    .intro {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .intro h2 {
+      color: #0052cc;
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+
+    .product {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+
+    .product:hover {
+      transform: translateY(-5px);
+    }
+
+    .product h3 {
+      color: #007bff;
+      margin-bottom: 10px;
+    }
+
+    .contact-section {
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+      margin-top: 60px;
+    }
+
+    .contact-section h2 {
+      color: #0052cc;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    input, textarea {
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1em;
+    }
+
+    button {
+      background-color: #0052cc;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #003f99;
+    }
+
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      border-radius: 50%;
+      padding: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      z-index: 1000;
+      transition: background 0.3s;
+    }
+
+    .whatsapp-float:hover {
+      background-color: #1ebe5b;
+    }
+
+    .whatsapp-float img {
+      width: 32px;
+      height: 32px;
+    }
+
+    footer {
+      background-color: #002d72;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
   <header>
-    <div class="container">
-      <h1 class="logo">HydroTech Pumps</h1>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#products">Products</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+    <h1>Submersible Pumps & Parts</h1>
+    <p>Premium Quality • Reliable Performance • Complete Solutions</p>
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero" id="home">
-    <div class="hero-content">
-      <h2>Complete Submersible Pump Solutions</h2>
-      <p>Reliable. Efficient. Built to Last.</p>
-      <a href="#products" class="btn">Explore Our Products</a>
-    </div>
-  </section>
+  <div class="container">
+    <section class="intro">
+      <h2>We Deal In</h2>
+      <p>All kinds of Submersible Motor Pumps and related industrial solutions.</p>
+    </section>
 
-  <!-- About Section -->
-  <section id="about" class="section">
-    <div class="container">
-      <h2>About Us</h2>
-      <p>We deal in all kinds of submersible motor pumps, monoblocks, solar pumps, inverters, centrifugal pumps, sewage pumps, mud pumps and more. Our mission is to provide durable and energy-efficient solutions tailored to your needs.</p>
-    </div>
-  </section>
-
-  <!-- Products Section -->
-  <section id="products" class="section">
-    <div class="container">
-      <h2>Our Products</h2>
-      <div class="product-grid">
-        <div class="product-card">
-          <h3>Submersible Pumps</h3>
-          <p>Water-cooled and oil-cooled motors for deep well and borewell applications.</p>
-        </div>
-        <div class="product-card">
-          <h3>Monoblock Pumps</h3>
-          <p>Durable and energy-efficient pumps for residential and industrial use.</p>
-        </div>
-        <div class="product-card">
-          <h3>Solar Pump Systems</h3>
-          <p>Eco-friendly solutions with solar submersible and monoblock options.</p>
-        </div>
-        <div class="product-card">
-          <h3>Inverters</h3>
-          <p>Inverters for water pumps and industrial machinery with high efficiency.</p>
-        </div>
-        <div class="product-card">
-          <h3>Centrifugal & Mud Pumps</h3>
-          <p>Ideal for irrigation, slurry, and muddy water applications.</p>
-        </div>
-        <div class="product-card">
-          <h3>Induction Motors</h3>
-          <p>High-torque, low-maintenance motors for industrial use.</p>
-        </div>
+    <section class="product-grid">
+      <div class="product">
+        <h3>Submersible Motor Pump</h3>
+        <p>Efficient and durable for various applications.</p>
       </div>
-    </div>
-  </section>
+      <div class="product">
+        <h3>Monoblock Pump</h3>
+        <p>Compact, powerful, and ideal for residential & industrial use.</p>
+      </div>
+      <div class="product">
+        <h3>Solar Pump</h3>
+        <p>Eco-friendly water solutions using solar energy.</p>
+      </div>
+      <div class="product">
+        <h3>Solar Monoblock</h3>
+        <p>Integrated solar-driven pumping system.</p>
+      </div>
+      <div class="product">
+        <h3>Water Pump Inverter</h3>
+        <p>Smart control inverters for water pumps.</p>
+      </div>
+      <div class="product">
+        <h3>Industrial Inverter</h3>
+        <p>High-efficiency inverters for industrial motor control.</p>
+      </div>
+      <div class="product">
+        <h3>Induction Motor</h3>
+        <p>Reliable performance for heavy-duty applications.</p>
+      </div>
+      <div class="product">
+        <h3>Water Cool Submersible Motor</h3>
+        <p>Advanced cooling for long operational life.</p>
+      </div>
+      <div class="product">
+        <h3>Oil Cool Submersible Motor</h3>
+        <p>Lubricated and thermally efficient design.</p>
+      </div>
+      <div class="product">
+        <h3>Centrifugal Pump</h3>
+        <p>Ideal for fluid transfer and irrigation.</p>
+      </div>
+      <div class="product">
+        <h3>Sewage Pump</h3>
+        <p>Robust design for wastewater handling.</p>
+      </div>
+      <div class="product">
+        <h3>Mud Pump</h3>
+        <p>High torque pumping for sludge and mud.</p>
+      </div>
+    </section>
 
-  <!-- Services Section -->
-  <section id="services" class="section dark">
-    <div class="container">
-      <h2>Our Services</h2>
-      <ul>
-        <li>Installation & Maintenance</li>
-        <li>Custom Pump System Design</li>
-        <li>OEM & Bulk Supply</li>
-        <li>Free Consultation</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Gallery -->
-  <section id="gallery" class="section">
-    <div class="container">
-      <h2>Gallery</h2>
-      <p>[Add photos of products and installations here]</p>
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact" class="section dark">
-    <div class="container">
+    <section class="contact-section">
       <h2>Contact Us</h2>
-      <p>Email: info@hydrotechpumps.com</p>
-      <p>Phone: +91-XXXXXXXXXX</p>
-      <p>Location: [Your address here]</p>
-    </div>
-  </section>
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="text" name="phone" placeholder="Your Phone Number" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </div>
 
-  <!-- Footer -->
+  <a class="whatsapp-float" href="https://wa.me/919999999999" target="_blank" title="Chat with us on WhatsApp">
+    <img src="https://img.icons8.com/ios-filled/50/ffffff/whatsapp.png" alt="WhatsApp">
+  </a>
+
   <footer>
-    <div class="container">
-      <p>&copy; 2025 HydroTech Pumps. All rights reserved.</p>
-    </div>
+    <p>&copy; 2025 Submersible Pumps Co. All rights reserved.</p>
   </footer>
-
 </body>
+
 </html>
