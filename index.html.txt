@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HydroTech Pumps & Solutions</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1 class="logo">HydroTech Pumps</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h2>Complete Submersible Pump Solutions</h2>
+      <p>Reliable. Efficient. Built to Last.</p>
+      <a href="#products" class="btn">Explore Our Products</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>We deal in all kinds of submersible motor pumps, monoblocks, solar pumps, inverters, centrifugal pumps, sewage pumps, mud pumps and more. Our mission is to provide durable and energy-efficient solutions tailored to your needs.</p>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="section">
+    <div class="container">
+      <h2>Our Products</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <h3>Submersible Pumps</h3>
+          <p>Water-cooled and oil-cooled motors for deep well and borewell applications.</p>
+        </div>
+        <div class="product-card">
+          <h3>Monoblock Pumps</h3>
+          <p>Durable and energy-efficient pumps for residential and industrial use.</p>
+        </div>
+        <div class="product-card">
+          <h3>Solar Pump Systems</h3>
+          <p>Eco-friendly solutions with solar submersible and monoblock options.</p>
+        </div>
+        <div class="product-card">
+          <h3>Inverters</h3>
+          <p>Inverters for water pumps and industrial machinery with high efficiency.</p>
+        </div>
+        <div class="product-card">
+          <h3>Centrifugal & Mud Pumps</h3>
+          <p>Ideal for irrigation, slurry, and muddy water applications.</p>
+        </div>
+        <div class="product-card">
+          <h3>Induction Motors</h3>
+          <p>High-torque, low-maintenance motors for industrial use.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section dark">
+    <div class="container">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Installation & Maintenance</li>
+        <li>Custom Pump System Design</li>
+        <li>OEM & Bulk Supply</li>
+        <li>Free Consultation</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="section">
+    <div class="container">
+      <h2>Gallery</h2>
+      <p>[Add photos of products and installations here]</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section dark">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Email: info@hydrotechpumps.com</p>
+      <p>Phone: +91-XXXXXXXXXX</p>
+      <p>Location: [Your address here]</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 HydroTech Pumps. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
