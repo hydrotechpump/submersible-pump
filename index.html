@@ -1,261 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Premium Submersible Pumps & Parts</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Roboto', sans-serif;
-    }
-
-    body {
-      background-color: #f5f9ff;
-      color: #333;
-      line-height: 1.6;
-    }
-
-    nav {
-      background-color: #003f99;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px 30px;
-      color: white;
-    }
-
-    nav .logo {
-      font-size: 1.5em;
-      font-weight: bold;
-    }
-
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 20px;
-    }
-
-    nav ul li a {
-      color: white;
-      text-decoration: none;
-      transition: color 0.3s ease;
-    }
-
-    nav ul li a:hover {
-      color: #ffcc00;
-    }
-
-    .hero {
-      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1603473571907-dffccfc64467') center/cover;
-      height: 80vh;
-      color: white;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      padding: 0 20px;
-    }
-
-    .hero h1 {
-      font-size: 3em;
-      margin-bottom: 10px;
-    }
-
-    .hero p {
-      font-size: 1.2em;
-      max-width: 600px;
-    }
-
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 60px 20px;
-    }
-
-    .intro {
-      text-align: center;
-      margin-bottom: 40px;
-    }
-
-    .intro h2 {
-      color: #0052cc;
-      font-size: 2.5em;
-      margin-bottom: 10px;
-    }
-
-    .product-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 30px;
-    }
-
-    .product {
-      background: white;
-      border-radius: 12px;
-      padding: 20px;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-      text-align: center;
-      transition: transform 0.2s ease;
-    }
-
-    .product:hover {
-      transform: translateY(-5px);
-    }
-
-    .product h3 {
-      color: #007bff;
-      margin-bottom: 10px;
-    }
-
-    .about {
-      background-color: #fff;
-      padding: 60px 20px;
-      text-align: center;
-    }
-
-    .about h2 {
-      color: #0052cc;
-      font-size: 2em;
-      margin-bottom: 20px;
-    }
-
-    .about p {
-      max-width: 800px;
-      margin: 0 auto;
-      font-size: 1.1em;
-    }
-
-    .contact-section {
-      background-color: #fff;
-      padding: 40px;
-      border-radius: 12px;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-      margin-top: 60px;
-    }
-
-    .contact-section h2 {
-      color: #0052cc;
-      text-align: center;
-      margin-bottom: 20px;
-    }
-
-    form {
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-      max-width: 600px;
-      margin: 0 auto;
-    }
-
-    input, textarea {
-      padding: 12px;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-      font-size: 1em;
-    }
-
-    button {
-      background-color: #0052cc;
-      color: white;
-      padding: 12px;
-      border: none;
-      border-radius: 8px;
-      font-size: 1em;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background-color: #003f99;
-    }
-
-    .whatsapp-float {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #25d366;
-      color: white;
-      border-radius: 50%;
-      padding: 15px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-      z-index: 1000;
-      transition: background 0.3s;
-    }
-
-    .whatsapp-float:hover {
-      background-color: #1ebe5b;
-    }
-
-    .whatsapp-float img {
-      width: 32px;
-      height: 32px;
-    }
-
-    footer {
-      background-color: #002d72;
-      color: white;
-      text-align: center;
-      padding: 40px 20px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AquaPower Pumps - Premium Submersible Pumps & Parts</title>
+    <meta name="description" content="Manufacturer and supplier of high-quality submersible pumps, spare parts, and maintenance services">
+    <style>
+        /* Basic styling - would be expanded in actual CSS file */
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; }
+        header { background: #0066cc; color: white; padding: 1rem; }
+        nav { display: flex; justify-content: space-around; background: #004d99; }
+        nav a { color: white; padding: 1rem; text-decoration: none; }
+        .hero { background: url('pump-background.jpg'); height: 400px; background-size: cover; }
+        .products { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; padding: 2rem; }
+        footer { background: #333; color: white; text-align: center; padding: 1rem; }
+    </style>
 </head>
-
 <body>
-  <nav>
-    <div class="logo">Submersible Pumps Co.</div>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#products">Products</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-
-  <section class="hero">
-    <h1>Reliable Submersible Pump Solutions</h1>
-    <p>We offer top-quality pumps, motors, inverters, and solar systems tailored to your needs.</p>
-  </section>
-
-  <div class="container">
-    <section class="intro" id="products">
-      <h2>Our Products</h2>
-      <p>We deal in all kinds of Submersible Motor Pumps and related industrial solutions.</p>
+    <header>
+        <h1>AquaPower Pumps</h1>
+        <p>Your trusted source for submersible pumps and parts since 1995</p>
+    </header>
+    
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#parts">Spare Parts</a>
+        <a href="#services">Services</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <section class="hero">
+        <h2>Premium Quality Submersible Pumps</h2>
+        <p>Durable, efficient, and built to last for industrial, agricultural, and residential applications</p>
+        <button>View Our Products</button>
     </section>
-
-    <section class="product-grid">
-      <!-- Product cards remain unchanged -->
-      <!-- ...existing product blocks... -->
+    
+    <section class="features">
+        <div>
+            <h3>24/7 Support</h3>
+            <p>Our technicians are always available for emergencies</p>
+        </div>
+        <div>
+            <h3>Genuine Parts</h3>
+            <p>Only OEM and high-quality aftermarket parts</p>
+        </div>
+        <div>
+            <h3>Fast Shipping</h3>
+            <p>Same-day dispatch for in-stock items</p>
+        </div>
     </section>
-
-    <section class="about" id="about">
-      <h2>About Us</h2>
-      <p>With years of experience in the water and pumping industry, Submersible Pumps Co. is your trusted partner for reliable, durable, and energy-efficient pump solutions. We specialize in submersible motors, monoblock pumps, solar systems, and industrial automation components.</p>
+    
+    <section class="products" id="products">
+        <h2>Our Product Range</h2>
+        <div class="product-card">
+            <img src="industrial-pump.jpg" alt="Industrial Submersible Pump">
+            <h3>Industrial Pumps</h3>
+            <p>Heavy-duty pumps for mining, construction, and wastewater</p>
+        </div>
+        <div class="product-card">
+            <img src="agricultural-pump.jpg" alt="Agricultural Submersible Pump">
+            <h3>Agricultural Pumps</h3>
+            <p>Reliable irrigation and drainage solutions</p>
+        </div>
+        <div class="product-card">
+            <img src="residential-pump.jpg" alt="Residential Submersible Pump">
+            <h3>Residential Pumps</h3>
+            <p>Quiet, efficient pumps for homes and small buildings</p>
+        </div>
     </section>
-
-    <section class="contact-section" id="contact">
-      <h2>Contact Us</h2>
-      <form action="#" method="post">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <input type="text" name="phone" placeholder="Your Phone Number" required>
-        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
+    
+    <section class="parts" id="parts">
+        <h2>Spare Parts Catalog</h2>
+        <div class="parts-categories">
+            <div>Impellers</div>
+            <div>Seals</div>
+            <div>Motors</div>
+            <div>Cables</div>
+            <div>Control Panels</div>
+            <div>Bearings</div>
+        </div>
+        <button>Download Full Parts Catalog (PDF)</button>
     </section>
-  </div>
-
-  <a class="whatsapp-float" href="https://wa.me/919999999999" target="_blank" title="Chat with us on WhatsApp">
-    <img src="https://img.icons8.com/ios-filled/50/ffffff/whatsapp.png" alt="WhatsApp">
-  </a>
-
-  <footer>
-    <p>&copy; 2025 Submersible Pumps Co. | All rights reserved | Designed for performance and reliability</p>
-  </footer>
+    
+    <footer>
+        <p>&copy; 2023 AquaPower Pumps. All rights reserved.</p>
+        <p>Contact: info@aquapowerpumps.com | (555) 123-4567</p>
+    </footer>
 </body>
-
 </html>
